@@ -1,0 +1,5 @@
+The var keyword is used when the type specification is rudimentary ie the compiler can guess the type on its own
+eg String message = "Hello";
+There are few things to keep in mind.
+1. Dont use the var keyword for fields,for methods/constructor parameters 
+2. Can be used within the method block.
