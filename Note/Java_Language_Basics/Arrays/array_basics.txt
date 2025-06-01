@@ -1,0 +1,7 @@
+arrays are objects which hold fisex number of variables.They only hold same type variables.
+arrays need to be initailised with the size before using.
+the size can be user-inputted.
+
+arrays manipulation :
+1.System class has a method to copy arrays : System.arraycopy(copyFrom,src pos, copyTo, dest pos, length)
+2.java.utils.Arrays : java
