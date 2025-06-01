@@ -1,0 +1,5 @@
+Basic points are skipped
+
+The return type of the expression depends on the operator used. 
+The assignment operator returns the data type that of the left hand side.
+eg int num =10; returns int.
