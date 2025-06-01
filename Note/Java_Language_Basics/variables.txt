@@ -1,0 +1,25 @@
+Rules : 
+1. It can only start with letters,_ or $ but letters are a convention.
+2. For numeric Constant we use NUM_VALUE like format. This where _ is generally used.
+3. The $ sign is generally for the generated variables so we dont use it.
+
+There are four types of variables : 
+1.Instance Variable (Non static vaiables) : The variables whose value is dynamically inputted. The variables used to store the fields of objs are this type.
+2.Static Variables : These use the keyword static. The variable is once declared and defined and its copy is used whenever needed.The Fields which needs to be consistent  across all objs in a class use this variable.
+3.local Variable : Declared and defined within a block of code and its scope is limited to the same.
+4.parameters : The variables passed to function(method) calls.
+
+Primitive Variables:
+1.int : used to store 4 byte integer (2s complement signed)
+2.short : 2 byte (2s complement signed)
+3.long : 8byte signed integer. needs a L at end
+4.float : TO store floating point variables . needs an f at end
+5.double : to store floating point 64bit integer.
+6.char : to store a single ascii character
+7.byte : to store 8 bit interger
+8.boolean : 1 bit for true/false.
+
+Reference Variables : Unlike the primitive variables which store the value , these store the address of the variables(objects).
+
+Underscores can be used in int/float literals to deocumentation or readibility.
+eg : 52_232, 3.14_15fetc but _21 , 3._14f 3._14f, 3.14_f , is invalid
