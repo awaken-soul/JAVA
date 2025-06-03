@@ -7,12 +7,12 @@ The constructor may have arguments or no argument. The compiler by default provi
 Better explanation based on what i understood:
 
 Consider following code :
-class Animal (){
+class Animal {
   public Animal(parameters..)
     {...}
 }
 
-class Dog extends Animal (){ 
+class Dog extends Animal{ 
 }
 
 Dog tomie = new Dog();
