@@ -1,0 +1,7 @@
+The objects are created as follows : 
+declaration , instantiation , initialisation.
+eg : class_name obj_name = new constructor_name(parameters if any)
+Using objects:
+1. If accessiing the variables or fields within its own class you can simply use it
+2. If the variable is a field within another class then we have to use the dot operator
+syntax : objectCreatedForThatClass.variableToAccess
