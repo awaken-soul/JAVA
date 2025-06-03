@@ -1,1 +1,13 @@
+A class declaration has following points in it:
+1. Modifiers such as public,private and more.
+2. class name (starts with capitalised letter by convention).
+3. "extends SuperClass" if any . A subclass can only extend one superclass.
+4. "implements interface1, interface2, ...." all the interfaces that the class implements separated by commas.
+5. class body within {}.
 
+The class body generally contains fields,constructors and methods
+
+Declaring the variables/fields :
+1. modifier data_type var_name [= var_value];
+
+Convention : The first(or only) word must be a verb for a method.
