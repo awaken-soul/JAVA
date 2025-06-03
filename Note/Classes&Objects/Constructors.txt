@@ -1,1 +1,21 @@
+Constructors is/are methods to initialize the objs when created using new.THe constructor has no return type not even null.It has same name as the class.COnstructor overloading is supported as long as the parameter list is different.
+Similar to the _init_ in python in its function.
 
+
+The constructor may have arguments or no argument. The compiler by default provides a no-argument constructor so if your superclass doesnt have one it will throw a error. All classes which dont have explicit superclass has Objects has implicit superclass and it has no-argument constructor.
+
+Better explanation based on what i understood:
+
+Consider following code :
+class Animal (){
+  public Animal(parameters..)
+    {...}
+}
+
+class Dog extends Animal (){ 
+}
+
+Dog tomie = new Dog();
+
+Here the Dog doesnt have a constructor so compiler will insert a no-argument constructor : super() this calls the super class' no-argument constructor but as there isnt any it will raise error.
+thus either add a no-argument constructor in super class or add super() in the subclass whose object is made.
