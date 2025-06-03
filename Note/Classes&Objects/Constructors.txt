@@ -19,3 +19,11 @@ Dog tomie = new Dog();
 
 Here the Dog doesnt have a constructor so compiler will insert a no-argument constructor : super() this calls the super class' no-argument constructor but as there isnt any it will raise error.
 thus either add a no-argument constructor in super class or add super() in the subclass whose object is made.
+
+
+Calling Constructors and methods : 
+The parameters passes must be in order and match the type.
+If the number of args of a parameter is unknown use varargs syntax : modifier return_type method_name(paramter_type... parameter_name) {}
+here we have one parameter using varargs3
+
+Varargs is preferred when the number of parameter of a certain parameter type is unknown. as it doesnt require the caller to pass an array. example code is attached.
