@@ -1,4 +1,1 @@
-The switch statement takes a selector variable and  based on its value selects one path to follow.
-The type of the selector variable must be :
-byte,char,short,int and its wrapper type, enumerated , and String type.
-The type cannot be boolean,long,float,double.
+
