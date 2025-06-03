@@ -1,1 +1,3 @@
-
+In JAVA  everything is pass-by-value. A copy of the variable/object is passed not the og but there is a catch.
+For reference objects the value passed is the address to the object thus a copy of object but pointing to the same object thus any change to the object alters the og object.
+Dont leave look if you CHANGE THE COPY OBJECT BY REASSIGNING IT TO A NEW OBJECT then it will no longer have address to the og object thus any further changes wont affect the og object.
