@@ -1,0 +1,12 @@
+The method defination has following components :
+1. The modifiers (eg public , private ,etc)
+2. return type of the method. 
+3.the method name (convention is to use verb first letter small)
+4. method's parameter variables with their datatype and var_name with ()
+5. exceptions (discussed later).
+6. method body within {} which has the code for performing the method.
+
+method declarations involve methodname and parameters with the datatype.
+
+Overloading of methods :
+The methods can have same name within a class given they dont have same number of variables and same data type.
