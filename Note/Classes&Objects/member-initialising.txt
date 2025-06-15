@@ -1,0 +1,26 @@
+Not always does the variable to be initialised has the value available it may need looping constructs or conditional statements.
+For instance variables it can be done using constructor but for class variable we need something as follows:
+static {
+    ..... code comes here for initialisation of the static variables.
+  } 
+This is called static initialisation block.
+Another method to initalize a class variable is using private static method :
+class ohhyeah {
+  private static point = initializeClassVariables();
+  private static initializeClassVariables () {
+  // initialize code here 
+}
+
+
+NOOOOTEEE : The static block content cant be redefined and cant be prevented from executing.When using file handling or network be careful.
+
+
+Initialising the instance variale
+1. initialiser block : { ... }
+2. using final : its pretty useful as it cant be overridden in subclass so it helps in initialising the variables which needs to be for sub classes
+
+eg : class hellyeah {
+    private zaddie = intialiseZaddie();
+    private final zaddieinitializer() {
+      ....
+    }
