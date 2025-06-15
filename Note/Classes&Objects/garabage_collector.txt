@@ -1,1 +1,1 @@
-
+One important point in OOP irrespective of programming language is we need to delete the objects once all the reference to it is over.In JAVA its automatically carried out a garbage collector which frees memory if all references are removed.
