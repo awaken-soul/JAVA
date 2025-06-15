@@ -1,0 +1,8 @@
+Java allows nesting of classes that one class can be defined inside another.there few things that needs to be kept in mind : 
+1. The classes can be static (static nested classes) or non static (inner class)
+2. Inner classes are instances of the enclosing classes thus it can't contain any class members inside it.
+3. static nested classes cant't access the other members of enclosing class directly while inner class can even if they are private.Just like class members can access other members through reference same applies to static nested classes.
+Nesting can be used if we need a class say B to access private members of A then B could be a inner class of A.B remains hidden outside A.
+The inner classes are of two types : local and anonymous classes
+
+First we have to initiate the outer class then create the inner class:
