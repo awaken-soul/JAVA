@@ -1,0 +1,2 @@
+If a method has the return type as the class name then that class must be same exact class or subclass.
+This is called covaraint return type
