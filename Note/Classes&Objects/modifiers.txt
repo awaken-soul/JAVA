@@ -1,0 +1,6 @@
+We have public,private,package-private,protected modifiers.
+These allow to control what clases can access the member of your class.
+public classes can be accessed from other classes. They are least suggested to use unless for say some constants.
+private classes are ones who can only be accessed in its own class.
+protected keeps access the class within the same package or its subclass in another package.
+package private protects the access by only providing the access within the package.
