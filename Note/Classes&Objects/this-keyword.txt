@@ -1,0 +1,2 @@
+this keyword is used to access a member within the current object.
+say within the objects class we a field named alpha then to access the field inside a method we use this.alpha which means alpha inside this object.
