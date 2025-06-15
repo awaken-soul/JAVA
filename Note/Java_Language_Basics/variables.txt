@@ -23,3 +23,10 @@ Reference Variables : Unlike the primitive variables which store the value , the
 
 Underscores can be used in int/float literals to deocumentation or readibility.
 eg : 52_232, 3.14_15fetc but _21 , 3._14f 3._14f, 3.14_f , is invalid
+
+
+Some note on class/static variables:
+The need for static variables : There are few parameters that we need to keep updated which objects need not know.
+Say we may need to keep track of no of objects we could use class variables.
+
+In case of class variables its recommended to not create an object rather to access/modify it use this : className.classVariableName 
