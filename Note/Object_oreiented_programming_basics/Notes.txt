@@ -1,1 +1,1 @@
-In OOP we create software objects which replicate the rea world parameters.The objects have Fields and Methods.In real world we deal with different similar groups of objects thus for
+In OOP we create software objects which replicate the real world parameters.The objects have Fields and Methods.In real world we deal with different similar groups of objects. Each objects have their property ie fields and behaviour ie methods.
